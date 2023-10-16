@@ -83,7 +83,7 @@ services:
 
 
   nginx:
-    build: ./configs/nginx
+    build: ./configs/confs/nginx
     restart: unless-stopped
     ports:
       - 7501:80
